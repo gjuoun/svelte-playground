@@ -9,14 +9,13 @@
     "text-sm px-2 py-1 min-w-[120px] ",
     active && "bg-sky-500 text-white border-sky-200",
     sx,
-    "button-group-item",
+    // common
+    "border-t border-b",
     // firstchild
-    "first:border-l first:border-t first:border-b",
+    "first:border-l ",
     "first:rounded-tl-md first:rounded-bl-md ",
     // // non first child,
-    "[&:not(:first-child)]:border-t",
     "[&:not(:first-child)]:border-l",
-    "[&:not(:first-child)]:border-b",
     "last:rounded-tr-md last:rounded-br-md",
     "last:border-r",
   ]);
